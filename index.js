@@ -8,6 +8,6 @@ app.get('*', (req, res) => {
   res.sendFile(path.resolve('./index.html'))
 })
 
-app.listen(8080, () => {
-  console.log('server up on port 8080')
+app.listen(3030, () => {
+  console.log('server up on port 3030')
 })
